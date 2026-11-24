@@ -1,0 +1,12 @@
+{
+  "name": "tapash-mallik-store",
+  "version": "1.0.0",
+  "description": "Tapash Mallik online store - Node.js microservice for Docker/Jenkins/Kubernetes",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test test/"
+  },
+  "engines": { "node": ">=18" },
+  "dependencies": { "express": "^4.19.2" }
+}

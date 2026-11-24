@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tapash Mallik Store - Online Shopping</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Tapash Mallik Store</h1>
+    <button id="cartBtn">🛒 Cart (<span id="cartCount">0</span>)</button>
+  </header>
+
+  <section class="hero">
+    <h2>Fresh groceries &amp; daily essentials, delivered in Nagpur</h2>
+    <p>Call us: <a href="tel:+919765539332">9765539332</a></p>
+  </section>
+
+  <main>
+    <h3>Products</h3>
+    <div id="products" class="grid"></div>
+  </main>
+
+  <aside id="cartPanel" class="hidden">
+    <h3>Your Cart</h3>
+    <div id="cartItems"></div>
+    <p class="total">Total: ₹<span id="cartTotal">0</span></p>
+    <h4>Checkout</h4>
+    <input id="name" placeholder="Full name">
+    <input id="phone" placeholder="Mobile number">
+    <textarea id="address" placeholder="Delivery address"></textarea>
+    <button id="placeOrder">Place Order</button>
+    <p id="msg"></p>
+  </aside>
+
+  <footer>
+    <p><strong>Tapash Mallik</strong> | Nagpur, Maharashtra, India</p>
+    <p>📞 <a href="tel:+919765539332">9765539332</a> | ✉️ <a href="mailto:tmallik789@gmail.com">tmallik789@gmail.com</a></p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
